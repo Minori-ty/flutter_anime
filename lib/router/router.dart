@@ -9,11 +9,11 @@ GoRouter router = GoRouter(initialLocation: "/", routes: [
   GoRoute(path: "/", builder: (context, state) => const AppRootPage(), routes: [
     GoRoute(path: "schedule", builder: (context, state) => SchedulePage()),
     GoRoute(
-      path: "myanime",
+      path: "my_anime",
       builder: (context, state) => MyAnimePage(),
     ),
-    GoRoute(path: "addanime", builder: (context, state) => AddAnimePage()),
+    GoRoute(path: "add_anime", builder: (context, state) => AddAnimePage()),
     GoRoute(
-        path: "animedetail", builder: (context, state) => AnimeDetailPage()),
+        path: "anime_detail", builder: (context, state) => AnimeDetailPage()),
   ]),
 ]);

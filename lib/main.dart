@@ -1,8 +1,10 @@
+import 'package:anime/api/api.dart';
 import 'package:anime/router/router.dart';
 import 'package:flutter/material.dart';
 import 'package:forui/forui.dart';
 
-void main() {
+void main() async {
+  await Api.initHive();
   runApp(const Application());
 }
 

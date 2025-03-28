@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:forui/forui.dart';
 
 class AddAnimePage extends StatelessWidget {
   const AddAnimePage({super.key});
@@ -6,9 +7,12 @@ class AddAnimePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Center(
-        child: Text("AddAnimePage"),
-      ),
-    );
+        appBar: AppBar(),
+        backgroundColor: Colors.grey.shade100,
+        body: Container(
+          width: double.infinity,
+          color: Colors.red,
+          child: Text("data"),
+        ));
   }
 }
