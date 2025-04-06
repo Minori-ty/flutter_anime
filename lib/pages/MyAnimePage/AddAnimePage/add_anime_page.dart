@@ -8,11 +8,13 @@ class AddAnimePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(),
-        backgroundColor: Colors.grey.shade100,
         body: Container(
           width: double.infinity,
           color: Colors.red,
-          child: Text("data"),
+          child: Text(
+            "data",
+            style: TextStyle(color: Colors.white),
+          ),
         ));
   }
 }
